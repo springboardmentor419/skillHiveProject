@@ -1,9 +1,0 @@
-<app-header (sideMenuEvent)="sideMenuEventListener($event)"></app-header>
-<div>
-  <app-side-menu *ngIf="candidateSideMenu" (closeSideMenu)="closeSideMenu($event)"></app-side-menu>
-</div>
-<div *ngIf="authsideMenu">
-  <app-sidemenu (closeSideMenu)="closeSideMenu($event)"></app-sidemenu>
-</div>
-<router-outlet></router-outlet>
-<!-- <app-footer></app-footer> -->
